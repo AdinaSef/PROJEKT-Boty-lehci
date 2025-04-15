@@ -27,6 +27,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 
@@ -34,11 +35,11 @@ body {
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  background-color: #f9f9f9;
+  background-color: #f5f5f5;
   padding: 60px;
   display: flex;
   justify-content: center;
-  border-radius: 100px;
+  
 }
 
 .zbozi {
@@ -46,7 +47,7 @@ body {
     width: 670px;
     height: 400px;
     overflow: visible; 
-  }
+     }
 
 /* Levá část */
 .vizual {
@@ -102,7 +103,7 @@ body {
 .zaruka {
   font-size: 12px;
   font-weight: 400;
-  color: #e0ffe3;
+  color: white;
 }
 
 /* Pravá část */
@@ -142,6 +143,14 @@ body {
   text-transform: uppercase;
 }
 
+.line {
+  height: 2px; /* výška čáry */
+  background-color: #06d7c1; /* barva */
+  width: 100%; /* šířka čáry */
+  margin: 20px 0;
+}
+
+
 .velikosti {
   list-style: none;
   display: flex;
@@ -159,7 +168,7 @@ body {
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
-  color: #333;
+  color: black;
   transition: all 0.3s ease;
 }
 
@@ -183,6 +192,7 @@ body {
   font-weight: 500;
   display: inline-block;
   transition: background 0.3s ease;
+  text-transform: uppercase;
 }
 
 .tlacitko:hover {
